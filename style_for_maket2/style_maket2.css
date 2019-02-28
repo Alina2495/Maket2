@@ -150,7 +150,13 @@ div.purchases {
     vertical-align: middle;
     padding: 5px;
 }
+.purchases img {
+    position: relative;
+}
 div.right_div {
+    position: absolute;
+    top: -30px;
+    right: -35px;
     display: inline-block;
     box-shadow: none;
     line-height: 0.9;
@@ -193,11 +199,11 @@ div.arrow-nav:hover {
     box-shadow: 1px 1px 3px 2px #d144ae;
 }
 div.arrow-nav-left {
-    background: #c3889e url('arrow-nav-left.png') no-repeat;
+    background: #c3889e url('../img_for_maket2/arrow-nav-left.png') no-repeat;
     background-size: contain;
 }
 div.arrow-nav-right {
-    background: #c3889e url('arrow-nav.png') no-repeat;
+    background: #c3889e url('../img_for_maket2/arrow-nav.png') no-repeat;
     background-size: contain;
 }
 div.products img {
@@ -258,11 +264,11 @@ div.sort-filter span:hover {
     background-color: #f5f7f6;
 }
 span.detal {
-    background: url('1564512-24.png') no-repeat 5px 0px;
+    background: url('../img_for_maket2/1564512-24.png') no-repeat 5px 0px;
     background-size: contain;
 }
 span.grid {
-    background: url('2203529-20.png') no-repeat 5px 2px;
+    background: url('../img_for_maket2/2203529-20.png') no-repeat 5px 2px;
     background-size: 13px;
 }
 figure {
